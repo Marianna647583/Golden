@@ -1,0 +1,60 @@
+:root {
+    --golden: #FED136;
+    --primery-dark:  #222222;
+    --gray: #777777;
+    --white:  #FFFFFF;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.header__logo {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--golden);
+}
+.nav__link { 
+   font-size: 14px;
+   font-weight: 400;
+   color: var(--golden);
+}
+.services__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primery-dark);
+}
+.services__item-title {
+     font-size: 18px;
+     font-weight: 700;
+     color: var(--primery-dark);
+}
+.services__item-text{
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    color: var(--gray);
+ }
+
+ .footer{
+    font-family: "Inter", sans-serif;
+    color: var(--primery-dark);
+    background-color: var(--golden);
+ }
+ .contact__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--white);
+ }
+ .contact__field {
+    font-size: 14px;
+    font-weight: 700;
+ }
+ .contact__button {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--golden);
+ }
+ .contact {
+    background-color: var(--primery-dark);
+ }
